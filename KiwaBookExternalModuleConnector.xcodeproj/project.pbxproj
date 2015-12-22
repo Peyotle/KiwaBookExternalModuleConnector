@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7CE15EF91C2224A20000CFF0 /* KiwaBookExternalModuleConnector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7CE15EF81C2224A20000CFF0 /* KiwaBookExternalModuleConnector.h */; };
 		7CE15EFB1C2224A20000CFF0 /* KiwaBookExternalModuleConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE15EFA1C2224A20000CFF0 /* KiwaBookExternalModuleConnector.m */; };
+		7CE15F0E1C27785F0000CFF0 /* KiwaBookExternalModuleConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE15EF81C2224A20000CFF0 /* KiwaBookExternalModuleConnector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +69,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7CE15F0D1C2778580000CFF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE15F0E1C27785F0000CFF0 /* KiwaBookExternalModuleConnector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		7CE15EF41C2224A10000CFF0 /* KiwaBookExternalModuleConnector */ = {
 			isa = PBXNativeTarget;
@@ -76,6 +88,7 @@
 				7CE15EF11C2224A10000CFF0 /* Sources */,
 				7CE15EF21C2224A10000CFF0 /* Frameworks */,
 				7CE15EF31C2224A10000CFF0 /* CopyFiles */,
+				7CE15F0D1C2778580000CFF0 /* Headers */,
 			);
 			buildRules = (
 			);
