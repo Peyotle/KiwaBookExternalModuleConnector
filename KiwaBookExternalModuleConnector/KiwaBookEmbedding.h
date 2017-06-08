@@ -9,6 +9,8 @@
 #ifndef KiwaBookEmbedding_h
 #define KiwaBookEmbedding_h
 
+#import "KiwaBookEmbeddingDelegate.h"
+
 @protocol KiwaBookEmbedding <NSObject>
 //- (void)startGame;
 //- (void)stopGame;
