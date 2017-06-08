@@ -10,6 +10,8 @@
 		7CE15EF91C2224A20000CFF0 /* KiwaBookExternalModuleConnector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7CE15EF81C2224A20000CFF0 /* KiwaBookExternalModuleConnector.h */; };
 		7CE15EFB1C2224A20000CFF0 /* KiwaBookExternalModuleConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE15EFA1C2224A20000CFF0 /* KiwaBookExternalModuleConnector.m */; };
 		7CE15F0E1C27785F0000CFF0 /* KiwaBookExternalModuleConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE15EF81C2224A20000CFF0 /* KiwaBookExternalModuleConnector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF133A41EE9FE0E00DA2DCF /* KiwaBookEmbedding.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF133A31EE9FE0E00DA2DCF /* KiwaBookEmbedding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF133A51EE9FE1400DA2DCF /* KiwaBookEmbeddingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF133A21EE9FDE000DA2DCF /* KiwaBookEmbeddingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		7CE15EF51C2224A20000CFF0 /* libKiwaBookExternalModuleConnector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKiwaBookExternalModuleConnector.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE15EF81C2224A20000CFF0 /* KiwaBookExternalModuleConnector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwaBookExternalModuleConnector.h; sourceTree = "<group>"; };
 		7CE15EFA1C2224A20000CFF0 /* KiwaBookExternalModuleConnector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwaBookExternalModuleConnector.m; sourceTree = "<group>"; };
+		7CF133A21EE9FDE000DA2DCF /* KiwaBookEmbeddingDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwaBookEmbeddingDelegate.h; sourceTree = "<group>"; };
+		7CF133A31EE9FE0E00DA2DCF /* KiwaBookEmbedding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KiwaBookEmbedding.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			children = (
 				7CE15EF81C2224A20000CFF0 /* KiwaBookExternalModuleConnector.h */,
 				7CE15EFA1C2224A20000CFF0 /* KiwaBookExternalModuleConnector.m */,
+				7CF133A21EE9FDE000DA2DCF /* KiwaBookEmbeddingDelegate.h */,
+				7CF133A31EE9FE0E00DA2DCF /* KiwaBookEmbedding.h */,
 			);
 			path = KiwaBookExternalModuleConnector;
 			sourceTree = "<group>";
@@ -75,6 +81,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CE15F0E1C27785F0000CFF0 /* KiwaBookExternalModuleConnector.h in Headers */,
+				7CF133A41EE9FE0E00DA2DCF /* KiwaBookEmbedding.h in Headers */,
+				7CF133A51EE9FE1400DA2DCF /* KiwaBookEmbeddingDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +267,7 @@
 				7CE15F001C2224A20000CFF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

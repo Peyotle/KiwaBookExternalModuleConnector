@@ -8,24 +8,11 @@
 
 //#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "KiwaBookEmbeddingDelegate.h"
+#import "KiwaBookEmbedding.h"
 
 extern NSString *kStartEmbeddedGameNotification;
 extern NSString *kCloseEmbeddedGameNotification;
-
-@protocol KiwaBookEmbeddingDelegate <NSObject>
-
-//- (void)closeGame;
-
-@end
-//
-@protocol KiwaBookEmbedding <NSObject>
-//- (void)startGame;
-//- (void)stopGame;
-@property (nonatomic, weak) id <KiwaBookEmbeddingDelegate> delegate;
-@property (nonatomic, strong) UIViewController *controller;
-
-@end
-
 
 @interface KiwaBookExternalModuleConnector : NSObject
 
