@@ -9,7 +9,6 @@
 //#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "KiwaBookEmbeddingDelegate.h"
-#import "KiwaBookEmbedding.h"
 
 extern NSString *kStartEmbeddedGameNotification;
 extern NSString *kCloseEmbeddedGameNotification;

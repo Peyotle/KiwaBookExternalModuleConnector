@@ -15,4 +15,12 @@
 
 @end
 
+@protocol KiwaBookEmbedding <NSObject>
+//- (void)startGame;
+//- (void)stopGame;
+@property (nonatomic, weak) id <KiwaBookEmbeddingDelegate> delegate;
+@property (nonatomic, strong) UIViewController *controller;
+
+@end
+
 #endif /* KiwaBookEmbeddingDelegate_h */
