@@ -21,6 +21,10 @@
 @property (nonatomic, weak) id <KiwaBookEmbeddingDelegate> delegate;
 @property (nonatomic, strong) UIViewController *controller;
 
+@optional
+- (void)startGame;
+- (void)stopGame;
+
 @end
 
 #endif /* KiwaBookEmbeddingDelegate_h */
